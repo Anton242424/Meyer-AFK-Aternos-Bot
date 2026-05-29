@@ -116,3 +116,7 @@ function setupLeaveRejoin(bot, createBot) {
 }
 
 module.exports = setupLeaveRejoin
+
+setTimeout(() => {
+  startBot()
+}, 30000)
